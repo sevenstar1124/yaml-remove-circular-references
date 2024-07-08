@@ -1,0 +1,118 @@
+openapi: 3.0.1
+info:
+  title: Connector API
+  version: 2.0.0
+paths:
+  /:
+    post:
+      tags:
+        - Availability blocks
+      summary: Get all availability blocks
+      description: "> This feature is being actively developed, features and behavior of this operation may change at short notice.\nReturns all availability blocks filtered by services, unique identifiers and other filters.\nNote this operation uses [Pagination](https://mews-systems.gitbook.io/connector-api/guidelines/pagination/) and supports [Portfolio Access Tokens](https://mews-systems.gitbook.io/connector-api/guidelines/multi-property/)."
+      operationId: availabilityBlocks_getAll
+      requestBody:
+        content:
+          application/json:
+            example:
+              ClientToken: E0D439EE522F44368DC78E1BFB03710C-D24FB11DBE31D4621C4817E028D9E1D
+              AccessToken: C66EF7B239D24632943D115EDE9CB810-EA00F8FD8294692C940F6B5A8F9453D
+              Client: Sample Client 1.0.0
+              EnterpriseIds:
+                - 3fa85f64-5717-4562-b3fc-2c963f66afa6
+                - 4d0201db-36f5-428b-8d11-4f0a65e960cc
+              AvailabilityBlockIds:
+                - aaaa654a4a94-4f96-9efc-86da-bd26d8db
+              ServiceIds:
+                - bd26d8db-86da-4f96-9efc-e5a4654a4a94
+              CreatedUtc:
+                StartUtc: '2020-11-04T00:00:00Z'
+                EndUtc: '2020-11-05T00:00:00Z'
+              UpdatedUtc:
+                StartUtc: '2020-11-04T00:00:00Z'
+                EndUtc: '2020-11-05T00:00:00Z'
+              CollidingUtc:
+                StartUtc: '2020-11-05T00:00:00Z'
+                EndUtc: '2020-11-05T00:00:00Z'
+              ReleasedUtc:
+                StartUtc: '2020-11-04T00:00:00Z'
+                EndUtc: '2020-11-05T00:00:00Z'
+              States:
+                - Confirmed
+              ExternalIdentifiers:
+                - Block-0001
+              ActivityStates:
+                - Active
+              Extent:
+                AvailabilityBlocks: true
+                Adjustments: true
+                ServiceOrders: false
+                Rates: false
+              Limitation:
+                Count: 10
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              example:
+                AvailabilityBlocks:
+                  - Id: aaaa654a4a94-4f96-9efc-86da-bd26d8db
+                    ServiceId: bd26d8db-86da-4f96-9efc-e5a4654a4a94
+                    RateId: ed4b660b-19d0-434b-9360-a4de2ea42eda
+                    VoucherId: 
+                    BookerId: 
+                    CompanyId: 
+                    Budget:
+                      Currency: USD
+                      Value: 48
+                    State: Confirmed
+                    ReservationPurpose: Leisure
+                    CreatedUtc: '2021-10-11T13:32:32Z'
+                    UpdatedUtc: '2021-10-11T13:32:32Z'
+                    FirstTimeUnitStartUtc: '2021-10-14T00:00:00Z'
+                    LastTimeUnitStartUtc: '2021-10-17T00:00:00Z'
+                    ReleasedUtc: '2021-10-13T00:00:00Z'
+                    ExternalIdentifier: Block-0001
+                    Name: Wedding group
+                    Notes: Have a nice stay
+                ServiceOrders:
+                  - Id: 5281b551-bd90-4def-b211-acbd00d3ac8c
+                    ServiceId: bd26d8db-86da-4f96-9efc-e5a4654a4a94
+                    GroupId: edad92db-0b60-4b91-a090-acbd00d3ac75
+                    Number: '61'
+                    ChannelNumber: 68845CDD-1340-49B5-9071-ACBD00B1D091
+                    ChannelManagerNumber: 
+                    ChannelManagerGroupNumber: 
+                    ChannelManager: 
+                    State: Confirmed
+                    Origin: Connector
+                    CreatedUtc: '2020-11-05T12:50:40Z'
+                    UpdatedUtc: '2020-11-06T07:59:19Z'
+                    CancelledUtc: 
+                    StartUtc: '2020-11-05T00:00:00Z'
+                    EndUtc: '2020-11-06T00:00:00Z'
+                    ReleasedUtc: 
+                    RequestedCategoryId: 1268c440-21c5-415d-bf58-ac87008b2bda
+                    AssignedResourceId: f97a6b96-b17f-421f-9b97-ac87008b3324
+                    AssignedResourceLocked: false
+                    BusinessSegmentId: 
+                    CompanyId: 
+                    TravelAgencyId: 
+                    AvailabilityBlockId: aaaa654a4a94-4f96-9efc-86da-bd26d8db
+                    RateId: ed4b660b-19d0-434b-9360-a4de2ea42eda
+                    VoucherId: 
+                    AdultCount: 2
+                    ChildCount: 0
+                    CustomerId: c2730cbc-53ca-440d-8b30-ac87008b30af
+                    CompanionIds: [ ]
+                Adjustments:
+                  - Id: e19297af-373e-4701-b4ea-afae0129bded
+                    AvailabilityBlockId: aaaa654a4a94-4f96-9efc-86da-bd26d8db
+                    ResourceCategoryId: 1268c440-21c5-415d-bf58-ac87008b2bda
+                    FirstTimeUnitStartUtc: '2021-10-14T00:00:00Z'
+                    LastTimeUnitStartUtc: '2021-10-17T00:00:00Z'
+                    UnitCount: 6
+                    ActivityState: Active
+                    UpdatedUtc: '2021-10-21T13:32:32Z'
+                Cursor: aaaa654a4a94-4f96-9efc-86da-bd26d8db
+        

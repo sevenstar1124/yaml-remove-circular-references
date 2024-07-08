@@ -1,0 +1,381 @@
+DeviceCommand
+DeviceCommandData
+DeviceCommandResult
+FiscalMachineCommandData
+KeyCutterCommandData
+PassportScannerCommandData
+PaymentTerminalCommandData
+PrinterCommandData
+
+
+
+Circular reference detected at: DeviceCommand -> properties -> Data -> allOf -> 0 ::::: DeviceCommandData
+Circular reference detected at: DeviceCommand -> properties -> Data -> oneOf -> 0 -> oneOf -> 0 ::::: PaymentTerminalCommandData
+Circular reference detected at: DeviceCommand -> properties -> Data -> oneOf -> 0 -> oneOf -> 1 -> oneOf -> 0 ::::: PaymentTerminalCommandData
+Circular reference detected at: DeviceCommand -> properties -> Data -> oneOf -> 0 -> oneOf -> 1 -> oneOf -> 1 ::::: PrinterCommandData
+Circular reference detected at: DeviceCommand -> properties -> Data -> oneOf -> 0 -> oneOf -> 1 -> oneOf -> 2 -> oneOf -> 0 ::::: PaymentTerminalCommandData
+Circular reference detected at: DeviceCommand -> properties -> Data -> oneOf -> 0 -> oneOf -> 1 -> oneOf -> 2 -> oneOf -> 1 ::::: PrinterCommandData
+Circular reference detected at: DeviceCommand -> properties -> Data -> oneOf -> 0 -> oneOf -> 1 -> oneOf -> 2 -> oneOf -> 2 ::::: KeyCutterCommandData
+Circular reference detected at: DeviceCommand -> properties -> Data -> oneOf -> 0 -> oneOf -> 1 -> oneOf -> 2 -> oneOf -> 3 -> oneOf -> 0 ::::: PaymentTerminalCommandData
+Circular reference detected at: DeviceCommand -> properties -> Data -> oneOf -> 0 -> oneOf -> 1 -> oneOf -> 2 -> oneOf -> 3 -> oneOf -> 1 ::::: PrinterCommandData
+Circular reference detected at: DeviceCommand -> properties -> Data -> oneOf -> 0 -> oneOf -> 1 -> oneOf -> 2 -> oneOf -> 3 -> oneOf -> 2 ::::: KeyCutterCommandData
+Circular reference detected at: DeviceCommand -> properties -> Data -> oneOf -> 0 -> oneOf -> 1 -> oneOf -> 2 -> oneOf -> 3 -> oneOf -> 3 ::::: FiscalMachineCommandData
+Circular reference detected at: DeviceCommand -> properties -> Data -> oneOf -> 0 -> oneOf -> 1 -> oneOf -> 2 -> oneOf -> 3 -> oneOf -> 4 -> oneOf -> 0 ::::: PaymentTerminalCommandData
+Circular reference detected at: DeviceCommand -> properties -> Data -> oneOf -> 0 -> oneOf -> 1 -> oneOf -> 2 -> oneOf -> 3 -> oneOf -> 4 -> oneOf -> 1 ::::: PrinterCommandData
+Circular reference detected at: DeviceCommand -> properties -> Data -> oneOf -> 0 -> oneOf -> 1 -> oneOf -> 2 -> oneOf -> 3 -> oneOf -> 4 -> oneOf -> 2 ::::: KeyCutterCommandData
+Circular reference detected at: DeviceCommand -> properties -> Data -> oneOf -> 0 -> oneOf -> 1 -> oneOf -> 2 -> oneOf -> 3 -> oneOf -> 4 -> oneOf -> 3 ::::: FiscalMachineCommandData
+Circular reference detected at: DeviceCommand -> properties -> Data -> oneOf -> 0 -> oneOf -> 1 -> oneOf -> 2 -> oneOf -> 3 -> oneOf -> 4 -> oneOf -> 4 ::::: PassportScannerCommandData
+Circular reference detected at: DeviceCommand -> properties -> Data -> oneOf -> 0 -> oneOf -> 1 -> oneOf -> 2 -> oneOf -> 4 -> oneOf -> 0 ::::: PaymentTerminalCommandData
+Circular reference detected at: DeviceCommand -> properties -> Data -> oneOf -> 0 -> oneOf -> 1 -> oneOf -> 2 -> oneOf -> 4 -> oneOf -> 1 ::::: PrinterCommandData
+Circular reference detected at: DeviceCommand -> properties -> Data -> oneOf -> 0 -> oneOf -> 1 -> oneOf -> 2 -> oneOf -> 4 -> oneOf -> 2 ::::: KeyCutterCommandData
+Circular reference detected at: DeviceCommand -> properties -> Data -> oneOf -> 0 -> oneOf -> 1 -> oneOf -> 2 -> oneOf -> 4 -> oneOf -> 3 ::::: FiscalMachineCommandData
+Circular reference detected at: DeviceCommand -> properties -> Data -> oneOf -> 0 -> oneOf -> 1 -> oneOf -> 2 -> oneOf -> 4 -> oneOf -> 4 ::::: PassportScannerCommandData
+Circular reference detected at: DeviceCommand -> properties -> Data -> oneOf -> 0 -> oneOf -> 1 -> oneOf -> 3 -> oneOf -> 0 ::::: PaymentTerminalCommandData
+Circular reference detected at: DeviceCommand -> properties -> Data -> oneOf -> 0 -> oneOf -> 1 -> oneOf -> 3 -> oneOf -> 1 ::::: PrinterCommandData
+Circular reference detected at: DeviceCommand -> properties -> Data -> oneOf -> 0 -> oneOf -> 1 -> oneOf -> 3 -> oneOf -> 2 ::::: KeyCutterCommandData
+Circular reference detected at: DeviceCommand -> properties -> Data -> oneOf -> 0 -> oneOf -> 1 -> oneOf -> 3 -> oneOf -> 3 ::::: FiscalMachineCommandData
+Circular reference detected at: DeviceCommand -> properties -> Data -> oneOf -> 0 -> oneOf -> 1 -> oneOf -> 3 -> oneOf -> 4 -> oneOf -> 0 ::::: PaymentTerminalCommandData
+Circular reference detected at: DeviceCommand -> properties -> Data -> oneOf -> 0 -> oneOf -> 1 -> oneOf -> 3 -> oneOf -> 4 -> oneOf -> 1 ::::: PrinterCommandData
+Circular reference detected at: DeviceCommand -> properties -> Data -> oneOf -> 0 -> oneOf -> 1 -> oneOf -> 3 -> oneOf -> 4 -> oneOf -> 2 ::::: KeyCutterCommandData
+Circular reference detected at: DeviceCommand -> properties -> Data -> oneOf -> 0 -> oneOf -> 1 -> oneOf -> 3 -> oneOf -> 4 -> oneOf -> 3 ::::: FiscalMachineCommandData
+Circular reference detected at: DeviceCommand -> properties -> Data -> oneOf -> 0 -> oneOf -> 1 -> oneOf -> 3 -> oneOf -> 4 -> oneOf -> 4 ::::: PassportScannerCommandData
+Circular reference detected at: DeviceCommand -> properties -> Data -> oneOf -> 0 -> oneOf -> 1 -> oneOf -> 4 -> oneOf -> 0 ::::: PaymentTerminalCommandData
+Circular reference detected at: DeviceCommand -> properties -> Data -> oneOf -> 0 -> oneOf -> 1 -> oneOf -> 4 -> oneOf -> 1 ::::: PrinterCommandData
+Circular reference detected at: DeviceCommand -> properties -> Data -> oneOf -> 0 -> oneOf -> 1 -> oneOf -> 4 -> oneOf -> 2 ::::: KeyCutterCommandData
+Circular reference detected at: DeviceCommand -> properties -> Data -> oneOf -> 0 -> oneOf -> 1 -> oneOf -> 4 -> oneOf -> 3 ::::: FiscalMachineCommandData
+Circular reference detected at: DeviceCommand -> properties -> Data -> oneOf -> 0 -> oneOf -> 1 -> oneOf -> 4 -> oneOf -> 4 ::::: PassportScannerCommandData
+Circular reference detected at: DeviceCommand -> properties -> Data -> oneOf -> 0 -> oneOf -> 2 -> oneOf -> 0 ::::: PaymentTerminalCommandData
+Circular reference detected at: DeviceCommand -> properties -> Data -> oneOf -> 0 -> oneOf -> 2 -> oneOf -> 1 ::::: PrinterCommandData
+Circular reference detected at: DeviceCommand -> properties -> Data -> oneOf -> 0 -> oneOf -> 2 -> oneOf -> 2 ::::: KeyCutterCommandData
+Circular reference detected at: DeviceCommand -> properties -> Data -> oneOf -> 0 -> oneOf -> 2 -> oneOf -> 3 -> oneOf -> 0 ::::: PaymentTerminalCommandData
+Circular reference detected at: DeviceCommand -> properties -> Data -> oneOf -> 0 -> oneOf -> 2 -> oneOf -> 3 -> oneOf -> 1 ::::: PrinterCommandData
+Circular reference detected at: DeviceCommand -> properties -> Data -> oneOf -> 0 -> oneOf -> 2 -> oneOf -> 3 -> oneOf -> 2 ::::: KeyCutterCommandData
+Circular reference detected at: DeviceCommand -> properties -> Data -> oneOf -> 0 -> oneOf -> 2 -> oneOf -> 3 -> oneOf -> 3 ::::: FiscalMachineCommandData
+Circular reference detected at: DeviceCommand -> properties -> Data -> oneOf -> 0 -> oneOf -> 2 -> oneOf -> 3 -> oneOf -> 4 -> oneOf -> 0 ::::: PaymentTerminalCommandData
+Circular reference detected at: DeviceCommand -> properties -> Data -> oneOf -> 0 -> oneOf -> 2 -> oneOf -> 3 -> oneOf -> 4 -> oneOf -> 1 ::::: PrinterCommandData
+Circular reference detected at: DeviceCommand -> properties -> Data -> oneOf -> 0 -> oneOf -> 2 -> oneOf -> 3 -> oneOf -> 4 -> oneOf -> 2 ::::: KeyCutterCommandData
+Circular reference detected at: DeviceCommand -> properties -> Data -> oneOf -> 0 -> oneOf -> 2 -> oneOf -> 3 -> oneOf -> 4 -> oneOf -> 3 ::::: FiscalMachineCommandData
+Circular reference detected at: DeviceCommand -> properties -> Data -> oneOf -> 0 -> oneOf -> 2 -> oneOf -> 3 -> oneOf -> 4 -> oneOf -> 4 ::::: PassportScannerCommandData
+Circular reference detected at: DeviceCommand -> properties -> Data -> oneOf -> 0 -> oneOf -> 2 -> oneOf -> 4 -> oneOf -> 0 ::::: PaymentTerminalCommandData
+Circular reference detected at: DeviceCommand -> properties -> Data -> oneOf -> 0 -> oneOf -> 2 -> oneOf -> 4 -> oneOf -> 1 ::::: PrinterCommandData
+Circular reference detected at: DeviceCommand -> properties -> Data -> oneOf -> 0 -> oneOf -> 2 -> oneOf -> 4 -> oneOf -> 2 ::::: KeyCutterCommandData
+Circular reference detected at: DeviceCommand -> properties -> Data -> oneOf -> 0 -> oneOf -> 2 -> oneOf -> 4 -> oneOf -> 3 ::::: FiscalMachineCommandData
+Circular reference detected at: DeviceCommand -> properties -> Data -> oneOf -> 0 -> oneOf -> 2 -> oneOf -> 4 -> oneOf -> 4 ::::: PassportScannerCommandData
+Circular reference detected at: DeviceCommand -> properties -> Data -> oneOf -> 0 -> oneOf -> 3 -> oneOf -> 0 ::::: PaymentTerminalCommandData
+Circular reference detected at: DeviceCommand -> properties -> Data -> oneOf -> 0 -> oneOf -> 3 -> oneOf -> 1 ::::: PrinterCommandData
+Circular reference detected at: DeviceCommand -> properties -> Data -> oneOf -> 0 -> oneOf -> 3 -> oneOf -> 2 ::::: KeyCutterCommandData
+Circular reference detected at: DeviceCommand -> properties -> Data -> oneOf -> 0 -> oneOf -> 3 -> oneOf -> 3 ::::: FiscalMachineCommandData
+Circular reference detected at: DeviceCommand -> properties -> Data -> oneOf -> 0 -> oneOf -> 3 -> oneOf -> 4 -> oneOf -> 0 ::::: PaymentTerminalCommandData
+Circular reference detected at: DeviceCommand -> properties -> Data -> oneOf -> 0 -> oneOf -> 3 -> oneOf -> 4 -> oneOf -> 1 ::::: PrinterCommandData
+Circular reference detected at: DeviceCommand -> properties -> Data -> oneOf -> 0 -> oneOf -> 3 -> oneOf -> 4 -> oneOf -> 2 ::::: KeyCutterCommandData
+Circular reference detected at: DeviceCommand -> properties -> Data -> oneOf -> 0 -> oneOf -> 3 -> oneOf -> 4 -> oneOf -> 3 ::::: FiscalMachineCommandData
+Circular reference detected at: DeviceCommand -> properties -> Data -> oneOf -> 0 -> oneOf -> 3 -> oneOf -> 4 -> oneOf -> 4 ::::: PassportScannerCommandData
+Circular reference detected at: DeviceCommand -> properties -> Data -> oneOf -> 0 -> oneOf -> 4 -> oneOf -> 0 ::::: PaymentTerminalCommandData
+Circular reference detected at: DeviceCommand -> properties -> Data -> oneOf -> 0 -> oneOf -> 4 -> oneOf -> 1 ::::: PrinterCommandData
+Circular reference detected at: DeviceCommand -> properties -> Data -> oneOf -> 0 -> oneOf -> 4 -> oneOf -> 2 ::::: KeyCutterCommandData
+Circular reference detected at: DeviceCommand -> properties -> Data -> oneOf -> 0 -> oneOf -> 4 -> oneOf -> 3 ::::: FiscalMachineCommandData
+Circular reference detected at: DeviceCommand -> properties -> Data -> oneOf -> 0 -> oneOf -> 4 -> oneOf -> 4 ::::: PassportScannerCommandData
+Circular reference detected at: DeviceCommand -> properties -> Data -> oneOf -> 1 -> oneOf -> 0 ::::: PaymentTerminalCommandData
+Circular reference detected at: DeviceCommand -> properties -> Data -> oneOf -> 1 -> oneOf -> 1 ::::: PrinterCommandData
+Circular reference detected at: DeviceCommand -> properties -> Data -> oneOf -> 1 -> oneOf -> 2 -> oneOf -> 0 ::::: PaymentTerminalCommandData
+Circular reference detected at: DeviceCommand -> properties -> Data -> oneOf -> 1 -> oneOf -> 2 -> oneOf -> 1 ::::: PrinterCommandData
+Circular reference detected at: DeviceCommand -> properties -> Data -> oneOf -> 1 -> oneOf -> 2 -> oneOf -> 2 ::::: KeyCutterCommandData
+Circular reference detected at: DeviceCommand -> properties -> Data -> oneOf -> 1 -> oneOf -> 2 -> oneOf -> 3 -> oneOf -> 0 ::::: PaymentTerminalCommandData
+Circular reference detected at: DeviceCommand -> properties -> Data -> oneOf -> 1 -> oneOf -> 2 -> oneOf -> 3 -> oneOf -> 1 ::::: PrinterCommandData
+Circular reference detected at: DeviceCommand -> properties -> Data -> oneOf -> 1 -> oneOf -> 2 -> oneOf -> 3 -> oneOf -> 2 ::::: KeyCutterCommandData
+Circular reference detected at: DeviceCommand -> properties -> Data -> oneOf -> 1 -> oneOf -> 2 -> oneOf -> 3 -> oneOf -> 3 ::::: FiscalMachineCommandData
+Circular reference detected at: DeviceCommand -> properties -> Data -> oneOf -> 1 -> oneOf -> 2 -> oneOf -> 3 -> oneOf -> 4 -> oneOf -> 0 ::::: PaymentTerminalCommandData
+Circular reference detected at: DeviceCommand -> properties -> Data -> oneOf -> 1 -> oneOf -> 2 -> oneOf -> 3 -> oneOf -> 4 -> oneOf -> 1 ::::: PrinterCommandData
+Circular reference detected at: DeviceCommand -> properties -> Data -> oneOf -> 1 -> oneOf -> 2 -> oneOf -> 3 -> oneOf -> 4 -> oneOf -> 2 ::::: KeyCutterCommandData
+Circular reference detected at: DeviceCommand -> properties -> Data -> oneOf -> 1 -> oneOf -> 2 -> oneOf -> 3 -> oneOf -> 4 -> oneOf -> 3 ::::: FiscalMachineCommandData
+Circular reference detected at: DeviceCommand -> properties -> Data -> oneOf -> 1 -> oneOf -> 2 -> oneOf -> 3 -> oneOf -> 4 -> oneOf -> 4 ::::: PassportScannerCommandData
+Circular reference detected at: DeviceCommand -> properties -> Data -> oneOf -> 1 -> oneOf -> 2 -> oneOf -> 4 -> oneOf -> 0 ::::: PaymentTerminalCommandData
+Circular reference detected at: DeviceCommand -> properties -> Data -> oneOf -> 1 -> oneOf -> 2 -> oneOf -> 4 -> oneOf -> 1 ::::: PrinterCommandData
+Circular reference detected at: DeviceCommand -> properties -> Data -> oneOf -> 1 -> oneOf -> 2 -> oneOf -> 4 -> oneOf -> 2 ::::: KeyCutterCommandData
+Circular reference detected at: DeviceCommand -> properties -> Data -> oneOf -> 1 -> oneOf -> 2 -> oneOf -> 4 -> oneOf -> 3 ::::: FiscalMachineCommandData
+Circular reference detected at: DeviceCommand -> properties -> Data -> oneOf -> 1 -> oneOf -> 2 -> oneOf -> 4 -> oneOf -> 4 ::::: PassportScannerCommandData
+Circular reference detected at: DeviceCommand -> properties -> Data -> oneOf -> 1 -> oneOf -> 3 -> oneOf -> 0 ::::: PaymentTerminalCommandData
+Circular reference detected at: DeviceCommand -> properties -> Data -> oneOf -> 1 -> oneOf -> 3 -> oneOf -> 1 ::::: PrinterCommandData
+Circular reference detected at: DeviceCommand -> properties -> Data -> oneOf -> 1 -> oneOf -> 3 -> oneOf -> 2 ::::: KeyCutterCommandData
+Circular reference detected at: DeviceCommand -> properties -> Data -> oneOf -> 1 -> oneOf -> 3 -> oneOf -> 3 ::::: FiscalMachineCommandData
+Circular reference detected at: DeviceCommand -> properties -> Data -> oneOf -> 1 -> oneOf -> 3 -> oneOf -> 4 -> oneOf -> 0 ::::: PaymentTerminalCommandData
+Circular reference detected at: DeviceCommand -> properties -> Data -> oneOf -> 1 -> oneOf -> 3 -> oneOf -> 4 -> oneOf -> 1 ::::: PrinterCommandData
+Circular reference detected at: DeviceCommand -> properties -> Data -> oneOf -> 1 -> oneOf -> 3 -> oneOf -> 4 -> oneOf -> 2 ::::: KeyCutterCommandData
+Circular reference detected at: DeviceCommand -> properties -> Data -> oneOf -> 1 -> oneOf -> 3 -> oneOf -> 4 -> oneOf -> 3 ::::: FiscalMachineCommandData
+Circular reference detected at: DeviceCommand -> properties -> Data -> oneOf -> 1 -> oneOf -> 3 -> oneOf -> 4 -> oneOf -> 4 ::::: PassportScannerCommandData
+Circular reference detected at: DeviceCommand -> properties -> Data -> oneOf -> 1 -> oneOf -> 4 -> oneOf -> 0 ::::: PaymentTerminalCommandData
+Circular reference detected at: DeviceCommand -> properties -> Data -> oneOf -> 1 -> oneOf -> 4 -> oneOf -> 1 ::::: PrinterCommandData
+Circular reference detected at: DeviceCommand -> properties -> Data -> oneOf -> 1 -> oneOf -> 4 -> oneOf -> 2 ::::: KeyCutterCommandData
+Circular reference detected at: DeviceCommand -> properties -> Data -> oneOf -> 1 -> oneOf -> 4 -> oneOf -> 3 ::::: FiscalMachineCommandData
+Circular reference detected at: DeviceCommand -> properties -> Data -> oneOf -> 1 -> oneOf -> 4 -> oneOf -> 4 ::::: PassportScannerCommandData
+Circular reference detected at: DeviceCommand -> properties -> Data -> oneOf -> 2 -> oneOf -> 0 ::::: PaymentTerminalCommandData
+Circular reference detected at: DeviceCommand -> properties -> Data -> oneOf -> 2 -> oneOf -> 1 ::::: PrinterCommandData
+Circular reference detected at: DeviceCommand -> properties -> Data -> oneOf -> 2 -> oneOf -> 2 ::::: KeyCutterCommandData
+Circular reference detected at: DeviceCommand -> properties -> Data -> oneOf -> 2 -> oneOf -> 3 -> oneOf -> 0 ::::: PaymentTerminalCommandData
+Circular reference detected at: DeviceCommand -> properties -> Data -> oneOf -> 2 -> oneOf -> 3 -> oneOf -> 1 ::::: PrinterCommandData
+Circular reference detected at: DeviceCommand -> properties -> Data -> oneOf -> 2 -> oneOf -> 3 -> oneOf -> 2 ::::: KeyCutterCommandData
+Circular reference detected at: DeviceCommand -> properties -> Data -> oneOf -> 2 -> oneOf -> 3 -> oneOf -> 3 ::::: FiscalMachineCommandData
+Circular reference detected at: DeviceCommand -> properties -> Data -> oneOf -> 2 -> oneOf -> 3 -> oneOf -> 4 -> oneOf -> 0 ::::: PaymentTerminalCommandData
+Circular reference detected at: DeviceCommand -> properties -> Data -> oneOf -> 2 -> oneOf -> 3 -> oneOf -> 4 -> oneOf -> 1 ::::: PrinterCommandData
+Circular reference detected at: DeviceCommand -> properties -> Data -> oneOf -> 2 -> oneOf -> 3 -> oneOf -> 4 -> oneOf -> 2 ::::: KeyCutterCommandData
+Circular reference detected at: DeviceCommand -> properties -> Data -> oneOf -> 2 -> oneOf -> 3 -> oneOf -> 4 -> oneOf -> 3 ::::: FiscalMachineCommandData
+Circular reference detected at: DeviceCommand -> properties -> Data -> oneOf -> 2 -> oneOf -> 3 -> oneOf -> 4 -> oneOf -> 4 ::::: PassportScannerCommandData
+Circular reference detected at: DeviceCommand -> properties -> Data -> oneOf -> 2 -> oneOf -> 4 -> oneOf -> 0 ::::: PaymentTerminalCommandData
+Circular reference detected at: DeviceCommand -> properties -> Data -> oneOf -> 2 -> oneOf -> 4 -> oneOf -> 1 ::::: PrinterCommandData
+Circular reference detected at: DeviceCommand -> properties -> Data -> oneOf -> 2 -> oneOf -> 4 -> oneOf -> 2 ::::: KeyCutterCommandData
+Circular reference detected at: DeviceCommand -> properties -> Data -> oneOf -> 2 -> oneOf -> 4 -> oneOf -> 3 ::::: FiscalMachineCommandData
+Circular reference detected at: DeviceCommand -> properties -> Data -> oneOf -> 2 -> oneOf -> 4 -> oneOf -> 4 ::::: PassportScannerCommandData
+Circular reference detected at: DeviceCommand -> properties -> Data -> oneOf -> 3 -> oneOf -> 0 ::::: PaymentTerminalCommandData
+Circular reference detected at: DeviceCommand -> properties -> Data -> oneOf -> 3 -> oneOf -> 1 ::::: PrinterCommandData
+Circular reference detected at: DeviceCommand -> properties -> Data -> oneOf -> 3 -> oneOf -> 2 ::::: KeyCutterCommandData
+Circular reference detected at: DeviceCommand -> properties -> Data -> oneOf -> 3 -> oneOf -> 3 ::::: FiscalMachineCommandData
+Circular reference detected at: DeviceCommand -> properties -> Data -> oneOf -> 3 -> oneOf -> 4 -> oneOf -> 0 ::::: PaymentTerminalCommandData
+Circular reference detected at: DeviceCommand -> properties -> Data -> oneOf -> 3 -> oneOf -> 4 -> oneOf -> 1 ::::: PrinterCommandData
+Circular reference detected at: DeviceCommand -> properties -> Data -> oneOf -> 3 -> oneOf -> 4 -> oneOf -> 2 ::::: KeyCutterCommandData
+Circular reference detected at: DeviceCommand -> properties -> Data -> oneOf -> 3 -> oneOf -> 4 -> oneOf -> 3 ::::: FiscalMachineCommandData
+Circular reference detected at: DeviceCommand -> properties -> Data -> oneOf -> 3 -> oneOf -> 4 -> oneOf -> 4 ::::: PassportScannerCommandData
+Circular reference detected at: DeviceCommand -> properties -> Data -> oneOf -> 4 -> oneOf -> 0 ::::: PaymentTerminalCommandData
+Circular reference detected at: DeviceCommand -> properties -> Data -> oneOf -> 4 -> oneOf -> 1 ::::: PrinterCommandData
+Circular reference detected at: DeviceCommand -> properties -> Data -> oneOf -> 4 -> oneOf -> 2 ::::: KeyCutterCommandData
+Circular reference detected at: DeviceCommand -> properties -> Data -> oneOf -> 4 -> oneOf -> 3 ::::: FiscalMachineCommandData
+Circular reference detected at: DeviceCommand -> properties -> Data -> oneOf -> 4 -> oneOf -> 4 ::::: PassportScannerCommandData
+Circular reference detected at: DeviceCommandData -> oneOf -> 0 -> oneOf -> 0 ::::: PaymentTerminalCommandData
+Circular reference detected at: DeviceCommandData -> oneOf -> 0 -> oneOf -> 1 -> oneOf -> 0 ::::: PaymentTerminalCommandData
+Circular reference detected at: DeviceCommandData -> oneOf -> 0 -> oneOf -> 1 -> oneOf -> 1 ::::: PrinterCommandData
+Circular reference detected at: DeviceCommandData -> oneOf -> 0 -> oneOf -> 1 -> oneOf -> 2 -> oneOf -> 0 ::::: PaymentTerminalCommandData
+Circular reference detected at: DeviceCommandData -> oneOf -> 0 -> oneOf -> 1 -> oneOf -> 2 -> oneOf -> 1 ::::: PrinterCommandData
+Circular reference detected at: DeviceCommandData -> oneOf -> 0 -> oneOf -> 1 -> oneOf -> 2 -> oneOf -> 2 ::::: KeyCutterCommandData
+Circular reference detected at: DeviceCommandData -> oneOf -> 0 -> oneOf -> 1 -> oneOf -> 2 -> oneOf -> 3 -> oneOf -> 0 ::::: PaymentTerminalCommandData
+Circular reference detected at: DeviceCommandData -> oneOf -> 0 -> oneOf -> 1 -> oneOf -> 2 -> oneOf -> 3 -> oneOf -> 1 ::::: PrinterCommandData
+Circular reference detected at: DeviceCommandData -> oneOf -> 0 -> oneOf -> 1 -> oneOf -> 2 -> oneOf -> 3 -> oneOf -> 2 ::::: KeyCutterCommandData
+Circular reference detected at: DeviceCommandData -> oneOf -> 0 -> oneOf -> 1 -> oneOf -> 2 -> oneOf -> 3 -> oneOf -> 3 ::::: FiscalMachineCommandData
+Circular reference detected at: DeviceCommandData -> oneOf -> 0 -> oneOf -> 1 -> oneOf -> 2 -> oneOf -> 3 -> oneOf -> 4 -> oneOf -> 0 ::::: PaymentTerminalCommandData
+Circular reference detected at: DeviceCommandData -> oneOf -> 0 -> oneOf -> 1 -> oneOf -> 2 -> oneOf -> 3 -> oneOf -> 4 -> oneOf -> 1 ::::: PrinterCommandData
+Circular reference detected at: DeviceCommandData -> oneOf -> 0 -> oneOf -> 1 -> oneOf -> 2 -> oneOf -> 3 -> oneOf -> 4 -> oneOf -> 2 ::::: KeyCutterCommandData
+Circular reference detected at: DeviceCommandData -> oneOf -> 0 -> oneOf -> 1 -> oneOf -> 2 -> oneOf -> 3 -> oneOf -> 4 -> oneOf -> 3 ::::: FiscalMachineCommandData
+Circular reference detected at: DeviceCommandData -> oneOf -> 0 -> oneOf -> 1 -> oneOf -> 2 -> oneOf -> 3 -> oneOf -> 4 -> oneOf -> 4 ::::: PassportScannerCommandData
+Circular reference detected at: DeviceCommandData -> oneOf -> 0 -> oneOf -> 1 -> oneOf -> 2 -> oneOf -> 4 -> oneOf -> 0 ::::: PaymentTerminalCommandData
+Circular reference detected at: DeviceCommandData -> oneOf -> 0 -> oneOf -> 1 -> oneOf -> 2 -> oneOf -> 4 -> oneOf -> 1 ::::: PrinterCommandData
+Circular reference detected at: DeviceCommandData -> oneOf -> 0 -> oneOf -> 1 -> oneOf -> 2 -> oneOf -> 4 -> oneOf -> 2 ::::: KeyCutterCommandData
+Circular reference detected at: DeviceCommandData -> oneOf -> 0 -> oneOf -> 1 -> oneOf -> 2 -> oneOf -> 4 -> oneOf -> 3 ::::: FiscalMachineCommandData
+Circular reference detected at: DeviceCommandData -> oneOf -> 0 -> oneOf -> 1 -> oneOf -> 2 -> oneOf -> 4 -> oneOf -> 4 ::::: PassportScannerCommandData
+Circular reference detected at: DeviceCommandData -> oneOf -> 0 -> oneOf -> 1 -> oneOf -> 3 -> oneOf -> 0 ::::: PaymentTerminalCommandData
+Circular reference detected at: DeviceCommandData -> oneOf -> 0 -> oneOf -> 1 -> oneOf -> 3 -> oneOf -> 1 ::::: PrinterCommandData
+Circular reference detected at: DeviceCommandData -> oneOf -> 0 -> oneOf -> 1 -> oneOf -> 3 -> oneOf -> 2 ::::: KeyCutterCommandData
+Circular reference detected at: DeviceCommandData -> oneOf -> 0 -> oneOf -> 1 -> oneOf -> 3 -> oneOf -> 3 ::::: FiscalMachineCommandData
+Circular reference detected at: DeviceCommandData -> oneOf -> 0 -> oneOf -> 1 -> oneOf -> 3 -> oneOf -> 4 -> oneOf -> 0 ::::: PaymentTerminalCommandData
+Circular reference detected at: DeviceCommandData -> oneOf -> 0 -> oneOf -> 1 -> oneOf -> 3 -> oneOf -> 4 -> oneOf -> 1 ::::: PrinterCommandData
+Circular reference detected at: DeviceCommandData -> oneOf -> 0 -> oneOf -> 1 -> oneOf -> 3 -> oneOf -> 4 -> oneOf -> 2 ::::: KeyCutterCommandData
+Circular reference detected at: DeviceCommandData -> oneOf -> 0 -> oneOf -> 1 -> oneOf -> 3 -> oneOf -> 4 -> oneOf -> 3 ::::: FiscalMachineCommandData
+Circular reference detected at: DeviceCommandData -> oneOf -> 0 -> oneOf -> 1 -> oneOf -> 3 -> oneOf -> 4 -> oneOf -> 4 ::::: PassportScannerCommandData
+Circular reference detected at: DeviceCommandData -> oneOf -> 0 -> oneOf -> 1 -> oneOf -> 4 -> oneOf -> 0 ::::: PaymentTerminalCommandData
+Circular reference detected at: DeviceCommandData -> oneOf -> 0 -> oneOf -> 1 -> oneOf -> 4 -> oneOf -> 1 ::::: PrinterCommandData
+Circular reference detected at: DeviceCommandData -> oneOf -> 0 -> oneOf -> 1 -> oneOf -> 4 -> oneOf -> 2 ::::: KeyCutterCommandData
+Circular reference detected at: DeviceCommandData -> oneOf -> 0 -> oneOf -> 1 -> oneOf -> 4 -> oneOf -> 3 ::::: FiscalMachineCommandData
+Circular reference detected at: DeviceCommandData -> oneOf -> 0 -> oneOf -> 1 -> oneOf -> 4 -> oneOf -> 4 ::::: PassportScannerCommandData
+Circular reference detected at: DeviceCommandData -> oneOf -> 0 -> oneOf -> 2 -> oneOf -> 0 ::::: PaymentTerminalCommandData
+Circular reference detected at: DeviceCommandData -> oneOf -> 0 -> oneOf -> 2 -> oneOf -> 1 ::::: PrinterCommandData
+Circular reference detected at: DeviceCommandData -> oneOf -> 0 -> oneOf -> 2 -> oneOf -> 2 ::::: KeyCutterCommandData
+Circular reference detected at: DeviceCommandData -> oneOf -> 0 -> oneOf -> 2 -> oneOf -> 3 -> oneOf -> 0 ::::: PaymentTerminalCommandData
+Circular reference detected at: DeviceCommandData -> oneOf -> 0 -> oneOf -> 2 -> oneOf -> 3 -> oneOf -> 1 ::::: PrinterCommandData
+Circular reference detected at: DeviceCommandData -> oneOf -> 0 -> oneOf -> 2 -> oneOf -> 3 -> oneOf -> 2 ::::: KeyCutterCommandData
+Circular reference detected at: DeviceCommandData -> oneOf -> 0 -> oneOf -> 2 -> oneOf -> 3 -> oneOf -> 3 ::::: FiscalMachineCommandData
+Circular reference detected at: DeviceCommandData -> oneOf -> 0 -> oneOf -> 2 -> oneOf -> 3 -> oneOf -> 4 -> oneOf -> 0 ::::: PaymentTerminalCommandData
+Circular reference detected at: DeviceCommandData -> oneOf -> 0 -> oneOf -> 2 -> oneOf -> 3 -> oneOf -> 4 -> oneOf -> 1 ::::: PrinterCommandData
+Circular reference detected at: DeviceCommandData -> oneOf -> 0 -> oneOf -> 2 -> oneOf -> 3 -> oneOf -> 4 -> oneOf -> 2 ::::: KeyCutterCommandData
+Circular reference detected at: DeviceCommandData -> oneOf -> 0 -> oneOf -> 2 -> oneOf -> 3 -> oneOf -> 4 -> oneOf -> 3 ::::: FiscalMachineCommandData
+Circular reference detected at: DeviceCommandData -> oneOf -> 0 -> oneOf -> 2 -> oneOf -> 3 -> oneOf -> 4 -> oneOf -> 4 ::::: PassportScannerCommandData
+Circular reference detected at: DeviceCommandData -> oneOf -> 0 -> oneOf -> 2 -> oneOf -> 4 -> oneOf -> 0 ::::: PaymentTerminalCommandData
+Circular reference detected at: DeviceCommandData -> oneOf -> 0 -> oneOf -> 2 -> oneOf -> 4 -> oneOf -> 1 ::::: PrinterCommandData
+Circular reference detected at: DeviceCommandData -> oneOf -> 0 -> oneOf -> 2 -> oneOf -> 4 -> oneOf -> 2 ::::: KeyCutterCommandData
+Circular reference detected at: DeviceCommandData -> oneOf -> 0 -> oneOf -> 2 -> oneOf -> 4 -> oneOf -> 3 ::::: FiscalMachineCommandData
+Circular reference detected at: DeviceCommandData -> oneOf -> 0 -> oneOf -> 2 -> oneOf -> 4 -> oneOf -> 4 ::::: PassportScannerCommandData
+Circular reference detected at: DeviceCommandData -> oneOf -> 0 -> oneOf -> 3 -> oneOf -> 0 ::::: PaymentTerminalCommandData
+Circular reference detected at: DeviceCommandData -> oneOf -> 0 -> oneOf -> 3 -> oneOf -> 1 ::::: PrinterCommandData
+Circular reference detected at: DeviceCommandData -> oneOf -> 0 -> oneOf -> 3 -> oneOf -> 2 ::::: KeyCutterCommandData
+Circular reference detected at: DeviceCommandData -> oneOf -> 0 -> oneOf -> 3 -> oneOf -> 3 ::::: FiscalMachineCommandData
+Circular reference detected at: DeviceCommandData -> oneOf -> 0 -> oneOf -> 3 -> oneOf -> 4 -> oneOf -> 0 ::::: PaymentTerminalCommandData
+Circular reference detected at: DeviceCommandData -> oneOf -> 0 -> oneOf -> 3 -> oneOf -> 4 -> oneOf -> 1 ::::: PrinterCommandData
+Circular reference detected at: DeviceCommandData -> oneOf -> 0 -> oneOf -> 3 -> oneOf -> 4 -> oneOf -> 2 ::::: KeyCutterCommandData
+Circular reference detected at: DeviceCommandData -> oneOf -> 0 -> oneOf -> 3 -> oneOf -> 4 -> oneOf -> 3 ::::: FiscalMachineCommandData
+Circular reference detected at: DeviceCommandData -> oneOf -> 0 -> oneOf -> 3 -> oneOf -> 4 -> oneOf -> 4 ::::: PassportScannerCommandData
+Circular reference detected at: DeviceCommandData -> oneOf -> 0 -> oneOf -> 4 -> oneOf -> 0 ::::: PaymentTerminalCommandData
+Circular reference detected at: DeviceCommandData -> oneOf -> 0 -> oneOf -> 4 -> oneOf -> 1 ::::: PrinterCommandData
+Circular reference detected at: DeviceCommandData -> oneOf -> 0 -> oneOf -> 4 -> oneOf -> 2 ::::: KeyCutterCommandData
+Circular reference detected at: DeviceCommandData -> oneOf -> 0 -> oneOf -> 4 -> oneOf -> 3 ::::: FiscalMachineCommandData
+Circular reference detected at: DeviceCommandData -> oneOf -> 0 -> oneOf -> 4 -> oneOf -> 4 ::::: PassportScannerCommandData
+Circular reference detected at: DeviceCommandData -> oneOf -> 1 -> oneOf -> 0 ::::: PaymentTerminalCommandData
+Circular reference detected at: DeviceCommandData -> oneOf -> 1 -> oneOf -> 1 ::::: PrinterCommandData
+Circular reference detected at: DeviceCommandData -> oneOf -> 1 -> oneOf -> 2 -> oneOf -> 0 ::::: PaymentTerminalCommandData
+Circular reference detected at: DeviceCommandData -> oneOf -> 1 -> oneOf -> 2 -> oneOf -> 1 ::::: PrinterCommandData
+Circular reference detected at: DeviceCommandData -> oneOf -> 1 -> oneOf -> 2 -> oneOf -> 2 ::::: KeyCutterCommandData
+Circular reference detected at: DeviceCommandData -> oneOf -> 1 -> oneOf -> 2 -> oneOf -> 3 -> oneOf -> 0 ::::: PaymentTerminalCommandData
+Circular reference detected at: DeviceCommandData -> oneOf -> 1 -> oneOf -> 2 -> oneOf -> 3 -> oneOf -> 1 ::::: PrinterCommandData
+Circular reference detected at: DeviceCommandData -> oneOf -> 1 -> oneOf -> 2 -> oneOf -> 3 -> oneOf -> 2 ::::: KeyCutterCommandData
+Circular reference detected at: DeviceCommandData -> oneOf -> 1 -> oneOf -> 2 -> oneOf -> 3 -> oneOf -> 3 ::::: FiscalMachineCommandData
+Circular reference detected at: DeviceCommandData -> oneOf -> 1 -> oneOf -> 2 -> oneOf -> 3 -> oneOf -> 4 -> oneOf -> 0 ::::: PaymentTerminalCommandData
+Circular reference detected at: DeviceCommandData -> oneOf -> 1 -> oneOf -> 2 -> oneOf -> 3 -> oneOf -> 4 -> oneOf -> 1 ::::: PrinterCommandData
+Circular reference detected at: DeviceCommandData -> oneOf -> 1 -> oneOf -> 2 -> oneOf -> 3 -> oneOf -> 4 -> oneOf -> 2 ::::: KeyCutterCommandData
+Circular reference detected at: DeviceCommandData -> oneOf -> 1 -> oneOf -> 2 -> oneOf -> 3 -> oneOf -> 4 -> oneOf -> 3 ::::: FiscalMachineCommandData
+Circular reference detected at: DeviceCommandData -> oneOf -> 1 -> oneOf -> 2 -> oneOf -> 3 -> oneOf -> 4 -> oneOf -> 4 ::::: PassportScannerCommandData
+Circular reference detected at: DeviceCommandData -> oneOf -> 1 -> oneOf -> 2 -> oneOf -> 4 -> oneOf -> 0 ::::: PaymentTerminalCommandData
+Circular reference detected at: DeviceCommandData -> oneOf -> 1 -> oneOf -> 2 -> oneOf -> 4 -> oneOf -> 1 ::::: PrinterCommandData
+Circular reference detected at: DeviceCommandData -> oneOf -> 1 -> oneOf -> 2 -> oneOf -> 4 -> oneOf -> 2 ::::: KeyCutterCommandData
+Circular reference detected at: DeviceCommandData -> oneOf -> 1 -> oneOf -> 2 -> oneOf -> 4 -> oneOf -> 3 ::::: FiscalMachineCommandData
+Circular reference detected at: DeviceCommandData -> oneOf -> 1 -> oneOf -> 2 -> oneOf -> 4 -> oneOf -> 4 ::::: PassportScannerCommandData
+Circular reference detected at: DeviceCommandData -> oneOf -> 1 -> oneOf -> 3 -> oneOf -> 0 ::::: PaymentTerminalCommandData
+Circular reference detected at: DeviceCommandData -> oneOf -> 1 -> oneOf -> 3 -> oneOf -> 1 ::::: PrinterCommandData
+Circular reference detected at: DeviceCommandData -> oneOf -> 1 -> oneOf -> 3 -> oneOf -> 2 ::::: KeyCutterCommandData
+Circular reference detected at: DeviceCommandData -> oneOf -> 1 -> oneOf -> 3 -> oneOf -> 3 ::::: FiscalMachineCommandData
+Circular reference detected at: DeviceCommandData -> oneOf -> 1 -> oneOf -> 3 -> oneOf -> 4 -> oneOf -> 0 ::::: PaymentTerminalCommandData
+Circular reference detected at: DeviceCommandData -> oneOf -> 1 -> oneOf -> 3 -> oneOf -> 4 -> oneOf -> 1 ::::: PrinterCommandData
+Circular reference detected at: DeviceCommandData -> oneOf -> 1 -> oneOf -> 3 -> oneOf -> 4 -> oneOf -> 2 ::::: KeyCutterCommandData
+Circular reference detected at: DeviceCommandData -> oneOf -> 1 -> oneOf -> 3 -> oneOf -> 4 -> oneOf -> 3 ::::: FiscalMachineCommandData
+Circular reference detected at: DeviceCommandData -> oneOf -> 1 -> oneOf -> 3 -> oneOf -> 4 -> oneOf -> 4 ::::: PassportScannerCommandData
+Circular reference detected at: DeviceCommandData -> oneOf -> 1 -> oneOf -> 4 -> oneOf -> 0 ::::: PaymentTerminalCommandData
+Circular reference detected at: DeviceCommandData -> oneOf -> 1 -> oneOf -> 4 -> oneOf -> 1 ::::: PrinterCommandData
+Circular reference detected at: DeviceCommandData -> oneOf -> 1 -> oneOf -> 4 -> oneOf -> 2 ::::: KeyCutterCommandData
+Circular reference detected at: DeviceCommandData -> oneOf -> 1 -> oneOf -> 4 -> oneOf -> 3 ::::: FiscalMachineCommandData
+Circular reference detected at: DeviceCommandData -> oneOf -> 1 -> oneOf -> 4 -> oneOf -> 4 ::::: PassportScannerCommandData
+Circular reference detected at: DeviceCommandData -> oneOf -> 2 -> oneOf -> 0 ::::: PaymentTerminalCommandData
+Circular reference detected at: DeviceCommandData -> oneOf -> 2 -> oneOf -> 1 ::::: PrinterCommandData
+Circular reference detected at: DeviceCommandData -> oneOf -> 2 -> oneOf -> 2 ::::: KeyCutterCommandData
+Circular reference detected at: DeviceCommandData -> oneOf -> 2 -> oneOf -> 3 -> oneOf -> 0 ::::: PaymentTerminalCommandData
+Circular reference detected at: DeviceCommandData -> oneOf -> 2 -> oneOf -> 3 -> oneOf -> 1 ::::: PrinterCommandData
+Circular reference detected at: DeviceCommandData -> oneOf -> 2 -> oneOf -> 3 -> oneOf -> 2 ::::: KeyCutterCommandData
+Circular reference detected at: DeviceCommandData -> oneOf -> 2 -> oneOf -> 3 -> oneOf -> 3 ::::: FiscalMachineCommandData
+Circular reference detected at: DeviceCommandData -> oneOf -> 2 -> oneOf -> 3 -> oneOf -> 4 -> oneOf -> 0 ::::: PaymentTerminalCommandData
+Circular reference detected at: DeviceCommandData -> oneOf -> 2 -> oneOf -> 3 -> oneOf -> 4 -> oneOf -> 1 ::::: PrinterCommandData
+Circular reference detected at: DeviceCommandData -> oneOf -> 2 -> oneOf -> 3 -> oneOf -> 4 -> oneOf -> 2 ::::: KeyCutterCommandData
+Circular reference detected at: DeviceCommandData -> oneOf -> 2 -> oneOf -> 3 -> oneOf -> 4 -> oneOf -> 3 ::::: FiscalMachineCommandData
+Circular reference detected at: DeviceCommandData -> oneOf -> 2 -> oneOf -> 3 -> oneOf -> 4 -> oneOf -> 4 ::::: PassportScannerCommandData
+Circular reference detected at: DeviceCommandData -> oneOf -> 2 -> oneOf -> 4 -> oneOf -> 0 ::::: PaymentTerminalCommandData
+Circular reference detected at: DeviceCommandData -> oneOf -> 2 -> oneOf -> 4 -> oneOf -> 1 ::::: PrinterCommandData
+Circular reference detected at: DeviceCommandData -> oneOf -> 2 -> oneOf -> 4 -> oneOf -> 2 ::::: KeyCutterCommandData
+Circular reference detected at: DeviceCommandData -> oneOf -> 2 -> oneOf -> 4 -> oneOf -> 3 ::::: FiscalMachineCommandData
+Circular reference detected at: DeviceCommandData -> oneOf -> 2 -> oneOf -> 4 -> oneOf -> 4 ::::: PassportScannerCommandData
+Circular reference detected at: DeviceCommandData -> oneOf -> 3 -> oneOf -> 0 ::::: PaymentTerminalCommandData
+Circular reference detected at: DeviceCommandData -> oneOf -> 3 -> oneOf -> 1 ::::: PrinterCommandData
+Circular reference detected at: DeviceCommandData -> oneOf -> 3 -> oneOf -> 2 ::::: KeyCutterCommandData
+Circular reference detected at: DeviceCommandData -> oneOf -> 3 -> oneOf -> 3 ::::: FiscalMachineCommandData
+Circular reference detected at: DeviceCommandData -> oneOf -> 3 -> oneOf -> 4 -> oneOf -> 0 ::::: PaymentTerminalCommandData
+Circular reference detected at: DeviceCommandData -> oneOf -> 3 -> oneOf -> 4 -> oneOf -> 1 ::::: PrinterCommandData
+Circular reference detected at: DeviceCommandData -> oneOf -> 3 -> oneOf -> 4 -> oneOf -> 2 ::::: KeyCutterCommandData
+Circular reference detected at: DeviceCommandData -> oneOf -> 3 -> oneOf -> 4 -> oneOf -> 3 ::::: FiscalMachineCommandData
+Circular reference detected at: DeviceCommandData -> oneOf -> 3 -> oneOf -> 4 -> oneOf -> 4 ::::: PassportScannerCommandData
+Circular reference detected at: DeviceCommandData -> oneOf -> 4 -> oneOf -> 0 ::::: PaymentTerminalCommandData
+Circular reference detected at: DeviceCommandData -> oneOf -> 4 -> oneOf -> 1 ::::: PrinterCommandData
+Circular reference detected at: DeviceCommandData -> oneOf -> 4 -> oneOf -> 2 ::::: KeyCutterCommandData
+Circular reference detected at: DeviceCommandData -> oneOf -> 4 -> oneOf -> 3 ::::: FiscalMachineCommandData
+Circular reference detected at: DeviceCommandData -> oneOf -> 4 -> oneOf -> 4 ::::: PassportScannerCommandData
+Circular reference detected at: DeviceCommandResult -> properties -> Commands -> items ::::: DeviceCommand
+Circular reference detected at: FiscalMachineCommandData -> oneOf -> 0 ::::: PaymentTerminalCommandData
+Circular reference detected at: FiscalMachineCommandData -> oneOf -> 1 ::::: PrinterCommandData
+Circular reference detected at: FiscalMachineCommandData -> oneOf -> 2 ::::: KeyCutterCommandData
+Circular reference detected at: FiscalMachineCommandData -> oneOf -> 3 ::::: FiscalMachineCommandData
+Circular reference detected at: FiscalMachineCommandData -> oneOf -> 4 -> oneOf -> 0 ::::: PaymentTerminalCommandData
+Circular reference detected at: FiscalMachineCommandData -> oneOf -> 4 -> oneOf -> 1 ::::: PrinterCommandData
+Circular reference detected at: FiscalMachineCommandData -> oneOf -> 4 -> oneOf -> 2 ::::: KeyCutterCommandData
+Circular reference detected at: FiscalMachineCommandData -> oneOf -> 4 -> oneOf -> 3 ::::: FiscalMachineCommandData
+Circular reference detected at: FiscalMachineCommandData -> oneOf -> 4 -> oneOf -> 4 ::::: PassportScannerCommandData
+Circular reference detected at: KeyCutterCommandData -> oneOf -> 0 ::::: PaymentTerminalCommandData
+Circular reference detected at: KeyCutterCommandData -> oneOf -> 1 ::::: PrinterCommandData
+Circular reference detected at: KeyCutterCommandData -> oneOf -> 2 -> oneOf -> 0 ::::: PaymentTerminalCommandData
+Circular reference detected at: KeyCutterCommandData -> oneOf -> 2 -> oneOf -> 1 ::::: PrinterCommandData
+Circular reference detected at: KeyCutterCommandData -> oneOf -> 2 -> oneOf -> 2 ::::: FiscalMachineCommandData
+Circular reference detected at: KeyCutterCommandData -> oneOf -> 2 -> oneOf -> 3 -> oneOf -> 0 ::::: PaymentTerminalCommandData
+Circular reference detected at: KeyCutterCommandData -> oneOf -> 2 -> oneOf -> 3 -> oneOf -> 1 ::::: PrinterCommandData
+Circular reference detected at: KeyCutterCommandData -> oneOf -> 2 -> oneOf -> 3 -> oneOf -> 2 ::::: FiscalMachineCommandData
+Circular reference detected at: KeyCutterCommandData -> oneOf -> 2 -> oneOf -> 3 -> oneOf -> 3 ::::: PassportScannerCommandData
+Circular reference detected at: KeyCutterCommandData -> oneOf -> 3 -> oneOf -> 0 ::::: PaymentTerminalCommandData
+Circular reference detected at: KeyCutterCommandData -> oneOf -> 3 -> oneOf -> 1 ::::: PrinterCommandData
+Circular reference detected at: KeyCutterCommandData -> oneOf -> 3 -> oneOf -> 2 ::::: FiscalMachineCommandData
+Circular reference detected at: KeyCutterCommandData -> oneOf -> 3 -> oneOf -> 3 ::::: PassportScannerCommandData
+Circular reference detected at: PassportScannerCommandData -> oneOf -> 0 ::::: PaymentTerminalCommandData
+Circular reference detected at: PassportScannerCommandData -> oneOf -> 1 ::::: PrinterCommandData
+Circular reference detected at: PassportScannerCommandData -> oneOf -> 2 ::::: KeyCutterCommandData
+Circular reference detected at: PassportScannerCommandData -> oneOf -> 3 ::::: FiscalMachineCommandData
+Circular reference detected at: PassportScannerCommandData -> oneOf -> 4 ::::: PassportScannerCommandData
+Circular reference detected at: PaymentTerminalCommandData -> oneOf -> 0 ::::: PaymentTerminalCommandData
+Circular reference detected at: PaymentTerminalCommandData -> oneOf -> 1 -> oneOf -> 0 ::::: PaymentTerminalCommandData
+Circular reference detected at: PaymentTerminalCommandData -> oneOf -> 1 -> oneOf -> 1 ::::: PrinterCommandData
+Circular reference detected at: PaymentTerminalCommandData -> oneOf -> 1 -> oneOf -> 2 -> oneOf -> 0 ::::: PaymentTerminalCommandData
+Circular reference detected at: PaymentTerminalCommandData -> oneOf -> 1 -> oneOf -> 2 -> oneOf -> 1 ::::: PrinterCommandData
+Circular reference detected at: PaymentTerminalCommandData -> oneOf -> 1 -> oneOf -> 2 -> oneOf -> 2 ::::: KeyCutterCommandData
+Circular reference detected at: PaymentTerminalCommandData -> oneOf -> 1 -> oneOf -> 2 -> oneOf -> 3 -> oneOf -> 0 ::::: PaymentTerminalCommandData
+Circular reference detected at: PaymentTerminalCommandData -> oneOf -> 1 -> oneOf -> 2 -> oneOf -> 3 -> oneOf -> 1 ::::: PrinterCommandData
+Circular reference detected at: PaymentTerminalCommandData -> oneOf -> 1 -> oneOf -> 2 -> oneOf -> 3 -> oneOf -> 2 ::::: KeyCutterCommandData
+Circular reference detected at: PaymentTerminalCommandData -> oneOf -> 1 -> oneOf -> 2 -> oneOf -> 3 -> oneOf -> 3 ::::: FiscalMachineCommandData
+Circular reference detected at: PaymentTerminalCommandData -> oneOf -> 1 -> oneOf -> 2 -> oneOf -> 3 -> oneOf -> 4 -> oneOf -> 0 ::::: PaymentTerminalCommandData
+Circular reference detected at: PaymentTerminalCommandData -> oneOf -> 1 -> oneOf -> 2 -> oneOf -> 3 -> oneOf -> 4 -> oneOf -> 1 ::::: PrinterCommandData
+Circular reference detected at: PaymentTerminalCommandData -> oneOf -> 1 -> oneOf -> 2 -> oneOf -> 3 -> oneOf -> 4 -> oneOf -> 2 ::::: KeyCutterCommandData
+Circular reference detected at: PaymentTerminalCommandData -> oneOf -> 1 -> oneOf -> 2 -> oneOf -> 3 -> oneOf -> 4 -> oneOf -> 3 ::::: FiscalMachineCommandData
+Circular reference detected at: PaymentTerminalCommandData -> oneOf -> 1 -> oneOf -> 2 -> oneOf -> 3 -> oneOf -> 4 -> oneOf -> 4 ::::: PassportScannerCommandData
+Circular reference detected at: PaymentTerminalCommandData -> oneOf -> 1 -> oneOf -> 2 -> oneOf -> 4 -> oneOf -> 0 ::::: PaymentTerminalCommandData
+Circular reference detected at: PaymentTerminalCommandData -> oneOf -> 1 -> oneOf -> 2 -> oneOf -> 4 -> oneOf -> 1 ::::: PrinterCommandData
+Circular reference detected at: PaymentTerminalCommandData -> oneOf -> 1 -> oneOf -> 2 -> oneOf -> 4 -> oneOf -> 2 ::::: KeyCutterCommandData
+Circular reference detected at: PaymentTerminalCommandData -> oneOf -> 1 -> oneOf -> 2 -> oneOf -> 4 -> oneOf -> 3 ::::: FiscalMachineCommandData
+Circular reference detected at: PaymentTerminalCommandData -> oneOf -> 1 -> oneOf -> 2 -> oneOf -> 4 -> oneOf -> 4 ::::: PassportScannerCommandData
+Circular reference detected at: PaymentTerminalCommandData -> oneOf -> 1 -> oneOf -> 3 -> oneOf -> 0 ::::: PaymentTerminalCommandData
+Circular reference detected at: PaymentTerminalCommandData -> oneOf -> 1 -> oneOf -> 3 -> oneOf -> 1 ::::: PrinterCommandData
+Circular reference detected at: PaymentTerminalCommandData -> oneOf -> 1 -> oneOf -> 3 -> oneOf -> 2 ::::: KeyCutterCommandData
+Circular reference detected at: PaymentTerminalCommandData -> oneOf -> 1 -> oneOf -> 3 -> oneOf -> 3 ::::: FiscalMachineCommandData
+Circular reference detected at: PaymentTerminalCommandData -> oneOf -> 1 -> oneOf -> 3 -> oneOf -> 4 -> oneOf -> 0 ::::: PaymentTerminalCommandData
+Circular reference detected at: PaymentTerminalCommandData -> oneOf -> 1 -> oneOf -> 3 -> oneOf -> 4 -> oneOf -> 1 ::::: PrinterCommandData
+Circular reference detected at: PaymentTerminalCommandData -> oneOf -> 1 -> oneOf -> 3 -> oneOf -> 4 -> oneOf -> 2 ::::: KeyCutterCommandData
+Circular reference detected at: PaymentTerminalCommandData -> oneOf -> 1 -> oneOf -> 3 -> oneOf -> 4 -> oneOf -> 3 ::::: FiscalMachineCommandData
+Circular reference detected at: PaymentTerminalCommandData -> oneOf -> 1 -> oneOf -> 3 -> oneOf -> 4 -> oneOf -> 4 ::::: PassportScannerCommandData
+Circular reference detected at: PaymentTerminalCommandData -> oneOf -> 1 -> oneOf -> 4 -> oneOf -> 0 ::::: PaymentTerminalCommandData
+Circular reference detected at: PaymentTerminalCommandData -> oneOf -> 1 -> oneOf -> 4 -> oneOf -> 1 ::::: PrinterCommandData
+Circular reference detected at: PaymentTerminalCommandData -> oneOf -> 1 -> oneOf -> 4 -> oneOf -> 2 ::::: KeyCutterCommandData
+Circular reference detected at: PaymentTerminalCommandData -> oneOf -> 1 -> oneOf -> 4 -> oneOf -> 3 ::::: FiscalMachineCommandData
+Circular reference detected at: PaymentTerminalCommandData -> oneOf -> 1 -> oneOf -> 4 -> oneOf -> 4 ::::: PassportScannerCommandData
+Circular reference detected at: PaymentTerminalCommandData -> oneOf -> 2 -> oneOf -> 0 ::::: PaymentTerminalCommandData
+Circular reference detected at: PaymentTerminalCommandData -> oneOf -> 2 -> oneOf -> 1 ::::: PrinterCommandData
+Circular reference detected at: PaymentTerminalCommandData -> oneOf -> 2 -> oneOf -> 2 ::::: KeyCutterCommandData
+Circular reference detected at: PaymentTerminalCommandData -> oneOf -> 2 -> oneOf -> 3 -> oneOf -> 0 ::::: PaymentTerminalCommandData
+Circular reference detected at: PaymentTerminalCommandData -> oneOf -> 2 -> oneOf -> 3 -> oneOf -> 1 ::::: PrinterCommandData
+Circular reference detected at: PaymentTerminalCommandData -> oneOf -> 2 -> oneOf -> 3 -> oneOf -> 2 ::::: KeyCutterCommandData
+Circular reference detected at: PaymentTerminalCommandData -> oneOf -> 2 -> oneOf -> 3 -> oneOf -> 3 ::::: FiscalMachineCommandData
+Circular reference detected at: PaymentTerminalCommandData -> oneOf -> 2 -> oneOf -> 3 -> oneOf -> 4 -> oneOf -> 0 ::::: PaymentTerminalCommandData
+Circular reference detected at: PaymentTerminalCommandData -> oneOf -> 2 -> oneOf -> 3 -> oneOf -> 4 -> oneOf -> 1 ::::: PrinterCommandData
+Circular reference detected at: PaymentTerminalCommandData -> oneOf -> 2 -> oneOf -> 3 -> oneOf -> 4 -> oneOf -> 2 ::::: KeyCutterCommandData
+Circular reference detected at: PaymentTerminalCommandData -> oneOf -> 2 -> oneOf -> 3 -> oneOf -> 4 -> oneOf -> 3 ::::: FiscalMachineCommandData
+Circular reference detected at: PaymentTerminalCommandData -> oneOf -> 2 -> oneOf -> 3 -> oneOf -> 4 -> oneOf -> 4 ::::: PassportScannerCommandData
+Circular reference detected at: PaymentTerminalCommandData -> oneOf -> 2 -> oneOf -> 4 -> oneOf -> 0 ::::: PaymentTerminalCommandData
+Circular reference detected at: PaymentTerminalCommandData -> oneOf -> 2 -> oneOf -> 4 -> oneOf -> 1 ::::: PrinterCommandData
+Circular reference detected at: PaymentTerminalCommandData -> oneOf -> 2 -> oneOf -> 4 -> oneOf -> 2 ::::: KeyCutterCommandData
+Circular reference detected at: PaymentTerminalCommandData -> oneOf -> 2 -> oneOf -> 4 -> oneOf -> 3 ::::: FiscalMachineCommandData
+Circular reference detected at: PaymentTerminalCommandData -> oneOf -> 2 -> oneOf -> 4 -> oneOf -> 4 ::::: PassportScannerCommandData
+Circular reference detected at: PaymentTerminalCommandData -> oneOf -> 3 -> oneOf -> 0 ::::: PaymentTerminalCommandData
+Circular reference detected at: PaymentTerminalCommandData -> oneOf -> 3 -> oneOf -> 1 ::::: PrinterCommandData
+Circular reference detected at: PaymentTerminalCommandData -> oneOf -> 3 -> oneOf -> 2 ::::: KeyCutterCommandData
+Circular reference detected at: PaymentTerminalCommandData -> oneOf -> 3 -> oneOf -> 3 ::::: FiscalMachineCommandData
+Circular reference detected at: PaymentTerminalCommandData -> oneOf -> 3 -> oneOf -> 4 -> oneOf -> 0 ::::: PaymentTerminalCommandData
+Circular reference detected at: PaymentTerminalCommandData -> oneOf -> 3 -> oneOf -> 4 -> oneOf -> 1 ::::: PrinterCommandData
+Circular reference detected at: PaymentTerminalCommandData -> oneOf -> 3 -> oneOf -> 4 -> oneOf -> 2 ::::: KeyCutterCommandData
+Circular reference detected at: PaymentTerminalCommandData -> oneOf -> 3 -> oneOf -> 4 -> oneOf -> 3 ::::: FiscalMachineCommandData
+Circular reference detected at: PaymentTerminalCommandData -> oneOf -> 3 -> oneOf -> 4 -> oneOf -> 4 ::::: PassportScannerCommandData
+Circular reference detected at: PaymentTerminalCommandData -> oneOf -> 4 -> oneOf -> 0 ::::: PaymentTerminalCommandData
+Circular reference detected at: PaymentTerminalCommandData -> oneOf -> 4 -> oneOf -> 1 ::::: PrinterCommandData
+Circular reference detected at: PaymentTerminalCommandData -> oneOf -> 4 -> oneOf -> 2 ::::: KeyCutterCommandData
+Circular reference detected at: PaymentTerminalCommandData -> oneOf -> 4 -> oneOf -> 3 ::::: FiscalMachineCommandData
+Circular reference detected at: PaymentTerminalCommandData -> oneOf -> 4 -> oneOf -> 4 ::::: PassportScannerCommandData
+Circular reference detected at: PrinterCommandData -> oneOf -> 0 ::::: PaymentTerminalCommandData
+Circular reference detected at: PrinterCommandData -> oneOf -> 1 -> oneOf -> 0 ::::: PaymentTerminalCommandData
+Circular reference detected at: PrinterCommandData -> oneOf -> 1 -> oneOf -> 1 -> oneOf -> 0 ::::: PaymentTerminalCommandData
+Circular reference detected at: PrinterCommandData -> oneOf -> 1 -> oneOf -> 1 -> oneOf -> 1 ::::: FiscalMachineCommandData
+Circular reference detected at: PrinterCommandData -> oneOf -> 1 -> oneOf -> 1 -> oneOf -> 2 -> oneOf -> 0 ::::: PaymentTerminalCommandData
+Circular reference detected at: PrinterCommandData -> oneOf -> 1 -> oneOf -> 1 -> oneOf -> 2 -> oneOf -> 1 ::::: FiscalMachineCommandData
+Circular reference detected at: PrinterCommandData -> oneOf -> 1 -> oneOf -> 1 -> oneOf -> 2 -> oneOf -> 2 ::::: PassportScannerCommandData
+Circular reference detected at: PrinterCommandData -> oneOf -> 1 -> oneOf -> 2 -> oneOf -> 0 ::::: PaymentTerminalCommandData
+Circular reference detected at: PrinterCommandData -> oneOf -> 1 -> oneOf -> 2 -> oneOf -> 1 ::::: FiscalMachineCommandData
+Circular reference detected at: PrinterCommandData -> oneOf -> 1 -> oneOf -> 2 -> oneOf -> 2 ::::: PassportScannerCommandData
+Circular reference detected at: PrinterCommandData -> oneOf -> 2 -> oneOf -> 0 ::::: PaymentTerminalCommandData
+Circular reference detected at: PrinterCommandData -> oneOf -> 2 -> oneOf -> 1 ::::: FiscalMachineCommandData
+Circular reference detected at: PrinterCommandData -> oneOf -> 2 -> oneOf -> 2 -> oneOf -> 0 ::::: PaymentTerminalCommandData
+Circular reference detected at: PrinterCommandData -> oneOf -> 2 -> oneOf -> 2 -> oneOf -> 1 ::::: FiscalMachineCommandData
+Circular reference detected at: PrinterCommandData -> oneOf -> 2 -> oneOf -> 2 -> oneOf -> 2 ::::: PassportScannerCommandData
+Circular reference detected at: PrinterCommandData -> oneOf -> 3 -> oneOf -> 0 ::::: PaymentTerminalCommandData
+Circular reference detected at: PrinterCommandData -> oneOf -> 3 -> oneOf -> 1 ::::: FiscalMachineCommandData
+Circular reference detected at: PrinterCommandData -> oneOf -> 3 -> oneOf -> 2 ::::: PassportScannerCommandData
